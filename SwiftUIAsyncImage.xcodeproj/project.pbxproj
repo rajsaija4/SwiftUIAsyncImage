@@ -11,6 +11,7 @@
 		3A1E8D542699B32B006DA92A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E8D532699B32B006DA92A /* ContentView.swift */; };
 		3A1E8D562699B32B006DA92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E8D552699B32B006DA92A /* Assets.xcassets */; };
 		3A1E8D592699B32B006DA92A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E8D582699B32B006DA92A /* Preview Assets.xcassets */; };
+		6E9A619828F6BCB0003FB0BA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A619728F6BCB0003FB0BA /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3A1E8D552699B32B006DA92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A1E8D582699B32B006DA92A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A86E03A2699B5FD0021A62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6E9A619728F6BCB0003FB0BA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3A86E03A2699B5FD0021A62D /* Info.plist */,
 				3A1E8D512699B32B006DA92A /* SwiftUIAsyncImageApp.swift */,
+				6E9A619728F6BCB0003FB0BA /* SecondViewController.swift */,
 				3A1E8D532699B32B006DA92A /* ContentView.swift */,
 				3A1E8D552699B32B006DA92A /* Assets.xcassets */,
 				3A1E8D572699B32B006DA92A /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9A619828F6BCB0003FB0BA /* SecondViewController.swift in Sources */,
 				3A1E8D542699B32B006DA92A /* ContentView.swift in Sources */,
 				3A1E8D522699B32B006DA92A /* SwiftUIAsyncImageApp.swift in Sources */,
 			);
