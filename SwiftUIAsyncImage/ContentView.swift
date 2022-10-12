@@ -66,6 +66,7 @@ struct ContentView: View {
     
     // MARK: - 5. ANIMATION
           
+      ZStack {
           AsyncImage(url: URL(string: imageURL), transaction: Transaction(animation: .spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0.25))) { phase in
               switch phase {
               case .success(let image):
@@ -83,7 +84,8 @@ struct ContentView: View {
               }
           }
           .padding(40)
-
+      }.background(.red)
+          .padding(40)
   }
 }
 
